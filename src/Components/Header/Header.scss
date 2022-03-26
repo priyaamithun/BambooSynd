@@ -1,0 +1,17 @@
+.nav_container{
+    .list_container{
+        left:40%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        margin-right:30px;
+
+        position: absolute;
+
+        li{
+            list-style: none;
+            padding:1rem;
+            color: wheat;
+        }
+    }
+
+}
